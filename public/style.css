@@ -1,0 +1,14 @@
+#container{
+    position: absolute;
+    left: 43%;
+    top: 35%;
+    font-size: 20px;
+}
+
+.info-container{
+    border: 1px solid black;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background: rgb(45, 151, 238);
+}
