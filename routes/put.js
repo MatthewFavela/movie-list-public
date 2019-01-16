@@ -11,15 +11,18 @@ const pool =  new  Pool({
   idleTimeoutMillis: 1000
 });
 
-module.exports.deleteMovie = (event, context, callback) => {
+module.exports.updateMovie = (event, context, callback) => {
 console.log('event', event);
-const student_id = event.body.student_id;
-  const deleteMovieInfo = `DELETE FROM ${table} WHERE movie_id = $1`;
-  
+const movie_id = event.body.movie_id;
+const movie_name = event.body.movie_title;
+const movie_genre = event.body.movie_genre;
+const movie_year = event.body.movie_year_released;
+  const upadateMovieInfo = `UPDATE ${table} SET  movie_name = $1, movie_year = $2, movie_genre = $3 WHERE movie_id = $;`;
+  console.log(upadateMovieInfo, "update");
   pool.connect()
   .then(client => {
     client.release()
-    return client.query(deleteMovieInfo, [movie_id]);
+    return client.query(upadateMovieInfo, [movie_name, movie_year, movie_genre, movie_id]);
   })
   .then(res => {
   const response = {

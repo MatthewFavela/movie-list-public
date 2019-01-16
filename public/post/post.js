@@ -7,8 +7,9 @@ window.onload = function(){
 
     form.addEventListener("submit", function(){
         event.preventDefault();
-        console.log(localStorage.setItem("title", movieTitle.value));
-        console.log(localStorage.setItem("released", yearReleased.value));
-        console.log(localStorage.setItem("genre", genre.value));
+        localStorage.setItem("title", movieTitle.value);
+        localStorage.setItem("released", yearReleased.value);
+        localStorage.setItem("genre", genre.value);
+        console.log(localStorage);
     });
 }
