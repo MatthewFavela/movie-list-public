@@ -1,8 +1,14 @@
+body{
+    background:rgb(0, 225, 255);
+    font-family: 'Black Ops One', cursive;
+}
+
 #container{
     position: absolute;
     left: 43%;
     top: 35%;
-    font-size: 20px;
+    font-size: 12px;
+    font-family: 'Black Ops One', cursive;
 }
 
 .info-container{
@@ -11,4 +17,58 @@
     height: 150px;
     width: 150px;
     background: rgb(45, 151, 238);
+    position: relative;
+    top: 40px;
+    font-size: 13px;
+    font-family: 'Black Ops One', cursive;
+}
+
+
+.delete-button{
+    color: white;
+    background-color:red;
+    border-radius: 23%;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Black Ops One', cursive;
+}
+
+.edit-button{
+    color: white;
+    background-color:rgb(45, 145, 32);
+    border-radius: 23%;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Black Ops One', cursive;
+}
+
+.edit-href{
+    text-decoration: none;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+
+#resultDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#post-href{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+    background-color:rgb(151, 143, 28); 
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 23px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Black Ops One', cursive;
 }
