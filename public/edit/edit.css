@@ -1,0 +1,55 @@
+#title{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    height: 25px;
+    width: 200px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#genre {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 25px;
+    width: 200px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#released {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    height: 25px;
+    width: 200px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#submit-button {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(3, 179, 56);
+    cursor: pointer;
+    font-family: 'Black Ops One', cursive;
+}
+
+#edit-href{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(150, 173, 150);
+}
+
+#movie-editor-title{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
