@@ -13,7 +13,7 @@ const pool =  new  Pool({
 
 module.exports.deleteMovie = (event, context, callback) => {
 console.log('event', event);
-const student_id = event.body.student_id;
+const movie_id = event.body.movie_id;
   const deleteMovieInfo = `DELETE FROM ${table} WHERE movie_id = $1`;
   
   pool.connect()
