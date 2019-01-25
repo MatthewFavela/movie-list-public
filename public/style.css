@@ -13,7 +13,6 @@ body{
 
 .info-container{
     border: 1px solid black;
-    padding: 10px;
     height: 150px;
     width: 150px;
     background: rgb(45, 151, 238);
@@ -21,6 +20,7 @@ body{
     top: 40px;
     font-size: 13px;
     font-family: 'Black Ops One', cursive;
+    padding: 5px;
 }
 
 
@@ -35,7 +35,7 @@ body{
 
 .edit-button{
     color: white;
-    background-color:rgb(45, 145, 32);
+    background-color:rgb(7, 51, 1);
     border-radius: 23%;
     text-decoration: none;
     font-size: 12px;
@@ -70,5 +70,43 @@ body{
     left: 23px;
     text-align: center;
     font-size: 20px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#title{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    height: 25px;
+    width: 120px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#genre {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    height: 25px;
+    width: 120px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#released {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    height: 25px;
+    width: 120px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.edit-done{
+    position: absolute;
+    left: 25px;
+    top: 115px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(3, 179, 56);
+    cursor: pointer;
     font-family: 'Black Ops One', cursive;
 }
